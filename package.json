@@ -16,8 +16,5 @@
     "url": "https://github.com/emyagkikh/eslint-plugin-no-boolean-switch"
   },
   "author": "Eugeniy Myagkikh <myagkikh.e@gmail.com>, telegram: @myagkikh_ea",
-  "license": "ISC",
-  "peerDependencies": {
-    "eslint": ">=8.57.0"
-  }
+  "license": "ISC"
 }
