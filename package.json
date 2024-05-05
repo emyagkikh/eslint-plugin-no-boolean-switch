@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-boolean-switch",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "ESLint rule for disallow using boolean literals as switch statement arguments",
   "keywords": [
     "eslint",
