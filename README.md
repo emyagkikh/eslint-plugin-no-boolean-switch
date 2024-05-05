@@ -20,9 +20,10 @@ switch (true) {
 }
 ```
 
-Let's use an example to see how switch(true) can be rewritten more safely
+Let's use an example to see how `switch(true)` can be rewritten more safely
 
 ### Was:
+
 ```js
 function getNodeDescriptionSwitch(node: Node) { 
   switch (true) { 
@@ -43,6 +44,7 @@ function getNodeDescriptionSwitch(node: Node) {
 }
 ```
 ### Became:
+
 ```js
 function getNodeDescriptionSwitch(node) {
   if (isArrayLiteralExpression(node) || isObjectLiteralExpression(node)) {
@@ -62,11 +64,36 @@ function getNodeDescriptionSwitch(node) {
 }
 ```
 
+## Installation
+
+```json
+npm i -D eslint-plugin-no-boolean-switch
+```
+
+## Usage
+Add no-switch-boolean to your .eslintrc configuration.
+
+```json
+{
+  "plugins": ["no-boolean-switch"]
+}
+```
+```json
+{
+  "rules": {
+    "no-boolean-switch/no-boolean-switch": "warn"
+  }
+}
+```
+
 ## Changelog
+
+#### 0.1.2
+- Adding `installation` and `usage` example to Readme.md 
 
 #### 0.1.1
 - Delete eslint package from peerDependencies
-- Added the correct readme.md
+- Added the correct `readme.md`
 - Set the package version to the semantically correct one
 
 #### 0.0.1
