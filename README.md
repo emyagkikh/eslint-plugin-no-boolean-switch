@@ -1,6 +1,6 @@
 # eslint-plugin-no-boolean-switch
 
-[![NPM Version](https://img.shields.io/npm/v/eslint-plugin-no-boolean-switch.svg?style=flat-square)](npmjs.com/package/eslint-plugin-no-boolean-switch)
+[![NPM Version](https://img.shields.io/npm/v/eslint-plugin-no-boolean-switch.svg?style=flat-square)](https://www.npmjs.com/package/eslint-plugin-no-boolean-switch)
 
 Adds [eslint](http://eslint.org/) rules to disallow using boolean literals as switch statement arguments
 
